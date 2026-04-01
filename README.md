@@ -2,11 +2,11 @@
 
 A modern electronic pharmacy storefront interface built with React + Vite, focusing on a fast user experience, flexible order management, and a comprehensive administrative dashboard.
 
-## نظرة عامة
+## Overview
 
 This repository is for the Frontend only and relies on a REST API for backend integration.
 
-## المميزات الرئيسية
+## Key Features
 
 - Complete Storefront: Includes Home, Product Browsing, Product Details, Cart, and    Checkout pages.
 
@@ -34,7 +34,7 @@ This repository is for the Frontend only and relies on a REST API for backend in
 
 - Toast Notifications: Instant feedback system for all user actions.
 
-## التقنيات المستخدمة
+## Tech Stack
 
 - `React 18`
 - `Vite 5`
@@ -42,24 +42,24 @@ This repository is for the Frontend only and relies on a REST API for backend in
 - `Axios`
 - `Bootstrap 5` + `Bootstrap Icons`
 
-## تشغيل المشروع محلياً
+## Local Development
 
 ```bash
 npm install
 npm run dev
 ```
 
-أوامر إضافية:
+## Additional Commands:
 
 - `npm run build` Build the project for production.
 - `npm run start` Preview the production build locally.
 
-## إعدادات البيئة
+## Environment Settings
 
 - `VITE_API_BASE_URL`: Optional variable to define the API base URL.
 -If not defined, the application defaults to the local development URL.
 
-## هيكل المشروع (مختصر)
+## Project Structure (Brief)
 
 - `src/pages` Application pages (Store / Account / Admin / Auth).
 - `src/components` Reusable UI components.
@@ -67,6 +67,6 @@ npm run dev
 - `src/api` API communication layer.
 - `src/i18n` Translation files.
 
-## ملاحظة أمنية
+## Security Note
 
 This file does not contain any sensitive data (such as passwords, JWT secrets, or database strings). It is always recommended to manage credentials via environment variables outside of the repository.
